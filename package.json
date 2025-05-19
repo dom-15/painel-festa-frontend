@@ -3,6 +3,9 @@
   "name": "painel-festa-frontend",
   "version": "1.0.0",
   "scripts": {
+  "build": "vite build"
+}
+
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
