@@ -1,0 +1,19 @@
+// src/pages/MenuPrincipal.jsx
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const MenuPrincipal = () => {
+  return (
+    <div style={{ padding: '2rem' }}>
+      <h1>🎉 Festa Junina - Painel Principal</h1>
+      <ul style={{ listStyle: 'none', paddingLeft: 0 }}>
+        <li><Link to="/registro">Registrar Venda de Ingresso</Link></li>
+        <li><Link to="/cortesia">Registrar Ingresso Cortesia</Link></li>
+        <li><Link to="/checkin">Fazer Check-in</Link></li>
+        <li><Link to="/relatorios">Ver Relatórios</Link></li>
+      </ul>
+    </div>
+  );
+};
+
+export default MenuPrincipal;
