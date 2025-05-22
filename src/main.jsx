@@ -1,19 +1,10 @@
- srcpagesMenuPrincipal.jsx
-import React from 'react';
-import { Link } from 'react-router-dom';
 
-const MenuPrincipal = () = {
-  return (
-    div style={{ padding '2rem' }}
-      h1🎉 Festa Junina - Painel Principalh1
-      ul style={{ listStyle 'none', paddingLeft 0 }}
-        liLink to=registroRegistrar Venda de IngressoLinkli
-        liLink to=cortesiaRegistrar Ingresso CortesiaLinkli
-        liLink to=checkinFazer Check-inLinkli
-        liLink to=relatoriosVer RelatóriosLinkli
-      ul
-    div
-  );
-};
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import './style.css'
 
-export default MenuPrincipal;
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <h1>Festa Junina - Painel de Check-in</h1>
+  </React.StrictMode>
+)
